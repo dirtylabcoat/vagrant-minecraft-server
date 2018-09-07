@@ -1,0 +1,13 @@
+[Unit]
+Description=Minecraft Server Service
+[Service]
+User=minecraft
+Group=minecraft
+WorkingDirectory=/opt/minecraft
+ExecStart=/usr/bin/java -Xms1536M -Xmx1536M -jar server.jar nogui
+SuccessExitStatus=143
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+[Install]
+WantedBy=multi-user.target

@@ -1,6 +1,6 @@
 #!/bin/bash
 MINECRAFT_HOME=/opt/minecraft
-DOWNLOAD_URL="https://launcher.mojang.com/v1/objects/fe123682e9cb30031eae351764f653500b7396c9/server.jar"
+DOWNLOAD_URL="https://launcher.mojang.com/v1/objects/3737db93722a9e39eeada7c27e7aca28b144ffa7/server.jar"
 apt-get update
 apt-get upgrade
 apt-get install -y openjdk-8-jre

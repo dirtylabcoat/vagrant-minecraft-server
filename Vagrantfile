@@ -1,6 +1,6 @@
 VAGRANTFILE_API_VERSION = "2"
 BOX_IMAGE = "fso/xenial64"
-BOX_NAME = "bigben"
+BOX_NAME = "minecraft-server"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.box = BOX_IMAGE
     config.vm.hostname = BOX_NAME

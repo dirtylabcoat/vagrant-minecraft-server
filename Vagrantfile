@@ -1,5 +1,5 @@
 VAGRANTFILE_API_VERSION = "2"
-BOX_IMAGE = "fso/xenial64"
+BOX_IMAGE = "bento/ubuntu-20.04"
 BOX_NAME = "minecraft-server"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.box = BOX_IMAGE

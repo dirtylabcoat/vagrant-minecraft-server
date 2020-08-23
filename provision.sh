@@ -7,7 +7,9 @@ MINECRAFT_HOME=/opt/minecraft
 ## 1.14.1
 #DOWNLOAD_URL="https://launcher.mojang.com/v1/objects/ed76d597a44c5266be2a7fcd77a8270f1f0bc118/server.jar"
 ## 1.14.3
-DOWNLOAD_URL="https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar"
+#DOWNLOAD_URL="https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar"
+## 1.16.2
+DOWNLOAD_URL="https://launcher.mojang.com/v1/objects/c5f6fb23c3876461d46ec380421e42b289789530/server.jar"
 apt-get update
 apt-get upgrade
 apt-get install -y openjdk-8-jre

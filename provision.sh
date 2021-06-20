@@ -9,10 +9,12 @@ MINECRAFT_HOME=/opt/minecraft
 ## 1.14.3
 #DOWNLOAD_URL="https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar"
 ## 1.16.2
-DOWNLOAD_URL="https://launcher.mojang.com/v1/objects/c5f6fb23c3876461d46ec380421e42b289789530/server.jar"
+#DOWNLOAD_URL="https://launcher.mojang.com/v1/objects/c5f6fb23c3876461d46ec380421e42b289789530/server.jar"
+## 1.17
+DOWNLOAD_URL=https://launcher.mojang.com/v1/objects/0a269b5f2c5b93b1712d0f5dc43b6182b9ab254e/server.jar
 apt-get update
 apt-get upgrade
-apt-get install -y openjdk-8-jre
+apt-get install -y openjdk-16-jre-headless
 adduser --system --home $MINECRAFT_HOME $MINECRAFT_USER
 addgroup --system $MINECRAFT_GROUP
 adduser $MINECRAFT_USER $MINECRAFT_GROUP
